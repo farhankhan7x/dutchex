@@ -47,9 +47,8 @@ const ActivityCardContainer = () => {
   return (
     <div className="gap-4 flex flex-col">
       {datas.map((data, index) => (
-        <div>
+        <div key={index}>
           <ActivityCard
-            key={index}
             CreateBgColor={data.CreateBgColor}
             CreateIcon={data.CreateIcon}
             TimeAndDate={data.TimeAndDate}
