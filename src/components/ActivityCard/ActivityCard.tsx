@@ -1,10 +1,10 @@
 // import ProfilePhotoIcon from "../../../public/BackgroundImage.png";
-import ClockIcon from "@/Logo and Icons/ActivityLogosandIcons/ClockIcon";
-import ExclamationIcon from "@/Logo and Icons/ActivityLogosandIcons/ExclamationIcon";
+import ClockIcon from "@/Assets/ClockIcon";
+import ExclamationIcon from "@/Assets/ExclamationIcon";
 import React from "react";
 import BeepComponent from "../BeepComponent/BeepComponent";
-import DiffFuelcon from "@/Logo and Icons/ActivityLogosandIcons/DiffFuelcon";
-import CirclelExclamationIcon from "@/Logo and Icons/ActivityLogosandIcons/CirclelExclamationIcon";
+import DiffFuelcon from "@/Assets/DiffFuelcon";
+import CirclelExclamationIcon from "@/Assets/CirclelExclamationIcon";
 import Button from "../Button/Button";
 import Caraousel from "../Caraousel/Caraousel";
 import ButtonFilled from "../ButtonFilled/ButtonFilled";
@@ -35,7 +35,8 @@ const ActivityCard: React.FC<Props> = ({
   ButtonText,
 }) => {
   return (
-    <div className="h-[286px]  rounded-lg flex justify-between py-6  backdrop-blur-40 bg-gradient-to-r from-fuchsia-500 to-cyan-500">
+    // <div className="h-[286px]  rounded-lg flex justify-between py-6  backdrop-blur-40 bg-gradient-to-r from-fuchsia-500 to-cyan-500">
+    <div className="h-[286px]  rounded-lg flex justify-between py-6  backdrop-blur-40 bg-gradient-to-r from-gray-800 to-gray-500">
       <div className="flex w-[70.69%] flex-col  ">
         <div className="flex">
           <div

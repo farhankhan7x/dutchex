@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import DutchxLogo from "@/Logo and Icons/DutchXlogo";
+import DutchxLogo from "@/Assets/DutchXlogo";
 import Dot from "../Dot/Dot";
 import SearchBar from "../Searchbar/SearchBar";
-import BellIcon from "@/Logo and Icons/BellIcon";
-import GasIcon from "@/Logo and Icons/GasIcon";
+import BellIcon from "@/Assets/BellIcon";
+import GasIcon from "@/Assets/GasIcon";
 import DropdownMenu from "@/DropdownMenu/DropdownMenu";
 
 const Header = () => {

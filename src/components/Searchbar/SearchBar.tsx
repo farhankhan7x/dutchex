@@ -1,5 +1,5 @@
-import SearchIcon from "@/Logo and Icons/SearchIcon";
-import SlashIcon from "@/Logo and Icons/SlasIcon";
+import SearchIcon from "@/Assets/SearchIcon";
+import SlashIcon from "@/Assets/SlasIcon";
 import React from "react";
 
 const SearchBar = () => {

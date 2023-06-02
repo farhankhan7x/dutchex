@@ -5,9 +5,9 @@ import one from "../../../public/1stbg.png";
 import two from "../../../public/2ndbg.png";
 import three from "../../../public/3rdbg.png";
 import four from "../../../public/4thbg.png";
-import LeftArrow from "@/Logo and Icons/ActivityLogosandIcons/LeftArrow";
-import RightArrow from "@/Logo and Icons/ActivityLogosandIcons/RightArrow";
-import MainBg from "@/Logo and Icons/ActivityLogosandIcons/MainBg";
+import LeftArrow from "@/Assets/LeftArrow";
+import RightArrow from "@/Assets/RightArrow";
+import MainBg from "@/Assets/MainBg";
 
 const Caraousel = () => {
   let datas = [

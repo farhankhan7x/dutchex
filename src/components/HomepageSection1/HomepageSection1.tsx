@@ -2,6 +2,7 @@ import React from "react";
 import RecentactivityComponent from "../RecentactivityComponent/RecentactivityComponent";
 import ActivityCard from "../ActivityCard/ActivityCard";
 import ActivityCardContainer from "../ActivityCardContainer/ActivityCardContainer";
+import OverviewComponentContainer from "../OverviewComponentContainer/OverviewComponentContainer";
 
 const HomepageSection1 = () => {
   return (
@@ -18,7 +19,9 @@ const HomepageSection1 = () => {
           <ActivityCardContainer />
         </div>
       </div>
-      <div>{/* right part */}</div>
+      <div className="w-[25.41%]">
+        <OverviewComponentContainer />
+      </div>
     </div>
   );
 };

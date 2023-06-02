@@ -1,8 +1,8 @@
 import React from "react";
 import ActivityCard from "../ActivityCard/ActivityCard";
-import ExclamationIcon from "@/Logo and Icons/ActivityLogosandIcons/ExclamationIcon";
-import PieChartIcon from "@/Logo and Icons/ActivityLogosandIcons/PieChartIcon";
-import TickIcon from "@/Logo and Icons/ActivityLogosandIcons/TickIcon";
+import ExclamationIcon from "@/Assets/ExclamationIcon";
+import PieChartIcon from "@/Assets/PieChartIcon";
+import TickIcon from "@/Assets/TickIcon";
 
 let datas = [
   {
