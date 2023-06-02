@@ -34,7 +34,7 @@ const Caraousel = () => {
         <LeftArrow />
         <div className="flex ml-2 gap-2 mr-2">
           {datas.map((data, index) => (
-            <div>
+            <div key={index}>
               <Image alt={"vdv"} src={data.photo} />
             </div>
           ))}

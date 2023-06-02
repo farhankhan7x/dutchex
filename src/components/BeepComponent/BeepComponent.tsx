@@ -18,7 +18,7 @@ const BeepComponent = () => {
   return (
     <div className="flex ml-6 mt-1">
       {datas.map((data, index) => (
-        <div className="flex">
+        <div key={index} className="flex">
           <span className="font-satoshi font-bold text-3xl leading-[30px] text-[#FFFFFF]">
             {data.name}
           </span>
