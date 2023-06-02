@@ -36,7 +36,7 @@ let lists = [
 ];
 const IconCardContainer = () => {
   return (
-    <div className="flex justify-between px-6 mt-4">
+    <div className="flex justify-between px-6 mt-4 pb-[18px] border-b-[rgba(255,255,255,0.1)] border-b-[1px] border-solid">
       {lists.map((list, index) => (
         <IconCard
           key={index}

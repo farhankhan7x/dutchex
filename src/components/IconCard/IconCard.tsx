@@ -1,9 +1,3 @@
-import AirdropIcon from "@/Logo and Icons/AirdropIcon";
-import AnalyticsIcon from "@/Logo and Icons/AnalyticsIcon";
-import FindHoldersIcon from "@/Logo and Icons/FindHoldersIcon";
-import NFTIcon from "@/Logo and Icons/NFTIcon";
-import TradeinIcon from "@/Logo and Icons/TradeinIcon";
-
 import React from "react";
 
 interface Props {
