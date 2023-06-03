@@ -61,32 +61,32 @@ const ActivityCard: React.FC<Props> = ({
         <BeepComponent />
         <div className="flex items-center">
           <div className=" relative flex justify-between py-1   rounded-lg mt-4 ml-6 border-[rgba(255,255,255,0.1)] border-[1px] border-solid">
-            <div className="flex px-4">
+            <div className="flex px-4 ">
               {" "}
-              <span className="font-bold text-sm leading-[21px] text-[#FFFFFF]">
+              <span className="font-bold text-sm leading-[21px] text-[#FFFFFF] cursor-pointer">
                 {NumberOne}
               </span>
-              <span className="font-satoshi font-normal ml-1 text-sm leading-[21px] text-[rgba(255,255,255,0.7)]">
+              <span className="font-satoshi font-normal ml-1 text-sm leading-[21px] text-[rgba(255,255,255,0.7)] cursor-pointer">
                 {" "}
                 Minting
               </span>
             </div>
             <div className="flex border-[rgba(255,255,255,0.1)] px-4 border-l-[1px] border-solid">
               {" "}
-              <span className="font-bold  text-sm leading-[21px] text-[#FFFFFF]">
+              <span className="font-bold  text-sm leading-[21px] text-[#FFFFFF] cursor-pointer">
                 {NumberTwo}
               </span>
-              <span className="font-satoshi ml-1 font-normal text-sm leading-[21px] text-[rgba(255,255,255,0.7)]">
+              <span className="font-satoshi ml-1 font-normal text-sm leading-[21px] text-[rgba(255,255,255,0.7)] cursor-pointer">
                 {" "}
                 Success
               </span>
             </div>
             <div className=" flex border-[rgba(255,255,255,0.1)] px-4 border-l-[1px] border-solid">
               {" "}
-              <span className="font-bold text-sm leading-[21px] text-[#FFFFFF]">
+              <span className="font-bold text-sm leading-[21px] text-[#FFFFFF] cursor-pointer">
                 {NumberThree}
               </span>
-              <span className="font-satoshi font-normal ml-1 mr-1 text-sm leading-[21px] text-[rgba(255,255,255,0.7)]">
+              <span className="font-satoshi font-normal ml-1 mr-1 text-sm leading-[21px] text-[rgba(255,255,255,0.7)] cursor-pointer">
                 {" "}
                 Failed
               </span>

@@ -46,11 +46,11 @@ const OverviewComponent: React.FC<Props> = ({
         // Conditional rendering of the outer div
         <React.Fragment key={index}>
           {data.FirstTextx && (
-            <div className="flex w-full justify-between items-center">
-              <span className="font-satoshi font-normal text-base leading-6 text-[rgba(255,255,255,0.6)]">
+            <div className="flex w-full justify-between items-center ">
+              <span className="font-satoshi font-normal text-base leading-6 text-[rgba(255,255,255,0.6)] cursor-pointer">
                 {data.FirstTextx}
               </span>
-              <div className="flex items-center">
+              <div className="flex items-center cursor-pointer">
                 <span className="font-satoshi font-normal ml-4 mr-[20.17px] text-base leading-6 text-[rgba(255,255,255,0.6)]">
                   {data.SecondTextx}
                 </span>

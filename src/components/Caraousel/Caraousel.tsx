@@ -26,20 +26,20 @@ const Caraousel = () => {
   ];
   return (
     <div className=" flex items-center flex-col ">
-      <div>
+      <div className="cursor-pointer">
         <Image alt={"vdv"} src={MainPhoto} />
         {/* <MainBg /> */}
       </div>
       <div className="flex mt-4 items-center w-full">
-        <LeftArrow />
+        <LeftArrow className="cursor-pointer" />
         <div className="flex ml-2 gap-2 mr-2">
           {datas.map((data, index) => (
-            <div key={index}>
+            <div key={index} className="cursor-pointer">
               <Image alt={"vdv"} src={data.photo} />
             </div>
           ))}
         </div>
-        <RightArrow />
+        <RightArrow className="cursor-pointer" />
       </div>
     </div>
   );
