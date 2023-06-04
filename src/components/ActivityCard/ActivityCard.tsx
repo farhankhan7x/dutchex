@@ -1,6 +1,4 @@
-// import ProfilePhotoIcon from "../../../public/BackgroundImage.png";
 import ClockIcon from "@/Assets/ClockIcon";
-import ExclamationIcon from "@/Assets/ExclamationIcon";
 import React from "react";
 import BeepComponent from "../BeepComponent/BeepComponent";
 import DiffFuelcon from "@/Assets/DiffFuelcon";
@@ -20,6 +18,7 @@ interface Props {
   USDvalue: any;
   FilledButtonText: any;
   ButtonText: any;
+  ProgressBar: any;
 }
 
 const ActivityCard: React.FC<Props> = ({
@@ -33,9 +32,9 @@ const ActivityCard: React.FC<Props> = ({
   USDvalue,
   FilledButtonText,
   ButtonText,
+  ProgressBar,
 }) => {
   return (
-    // <div className="h-[286px]  rounded-lg flex justify-between py-6  backdrop-blur-40 bg-gradient-to-r from-fuchsia-500 to-cyan-500">
     <div className="h-[286px]  rounded-lg flex justify-between py-6  backdrop-blur-40 bg-gradient-to-r from-gray-800 to-gray-500">
       <div className="flex w-[70.69%] flex-col  ">
         <div className="flex">
@@ -105,7 +104,19 @@ const ActivityCard: React.FC<Props> = ({
             </span>
           </div>
         </div>
-        <div className=" ml-6 mt-4 rounded-lg h-4 bg-[rgba(255,255,255,0.1)]"></div>
+        <div className="w-[full] relative">
+          <div className="w-[100%] ml-6 mt-4 rounded-lg h-4 bg-[rgba(255,255,255,0.1)] ">
+            <div
+              className={`rounded-lg h-4`}
+              style={{
+                width: ProgressBar,
+                background:
+                  "linear-gradient(270deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), #FF4800",
+                backgroundBlendMode: "overlay, normal",
+              }}
+            ></div>
+          </div>
+        </div>
         <div className="ml-6 flex mt-4">
           {FilledButtonText && <ButtonFilled ButtonText={FilledButtonText} />}
 

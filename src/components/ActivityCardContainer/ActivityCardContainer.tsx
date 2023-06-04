@@ -16,6 +16,7 @@ let datas = [
     USDvalue: "$0 USD",
     FilledButtonText: "",
     ButtonText: "Show Report",
+    ProgressBar: "0%",
   },
   {
     CreateBgColor: "#70BC63",
@@ -28,11 +29,12 @@ let datas = [
     USDvalue: "$3.22 USD",
     FilledButtonText: "View Progress",
     ButtonText: "Stop Minting",
+    ProgressBar: "42.6%",
   },
   {
     CreateBgColor: "#4798E3",
     CreateIcon: <TickIcon />,
-    TimeAndDate: "Stop Minting",
+    TimeAndDate: "2022-09-13 08:57:15 PST",
     NumberOne: "7/7",
     NumberTwo: "6",
     NumberThree: "1",
@@ -40,6 +42,7 @@ let datas = [
     USDvalue: "$3.22 USD",
     FilledButtonText: "View in NFT Management",
     ButtonText: "Show Report",
+    ProgressBar: "100%",
   },
 ];
 
@@ -59,6 +62,7 @@ const ActivityCardContainer = () => {
             USDvalue={data.USDvalue}
             FilledButtonText={data.FilledButtonText}
             ButtonText={data.ButtonText}
+            ProgressBar={data.ProgressBar}
           />
         </div>
       ))}
