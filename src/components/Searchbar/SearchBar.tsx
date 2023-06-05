@@ -6,9 +6,10 @@ import SearchButton from "../SearcButton/SearchButton";
 const SearchBar = () => {
   const [openSearchBar, setOpenSearchBar] = useState<boolean>(false);
 
-  const handleSearchBar = () => {
-    setOpenSearchBar((prevState) => !prevState);
-  };
+  // const handleSearchBar = () => {
+  //   setOpenSearchBar();
+  // };
+
   return (
     <div className="w-[26.17%] relative">
       <div className="w-[100%] px-[10.5px] py-2 flex border justify-between items-center rounded-lg border-solid border-[rgba(255,255,255,0.1)]  ">
@@ -17,7 +18,8 @@ const SearchBar = () => {
           className="shadow-none ring-0 font-normal text-sm text-[#FFFFFF] border-0 bg-none bg-transparent shadow-none w-[79.37%] border-[none]"
           placeholder="Enter name or ID"
           style={{ outline: "none" }}
-          onClick={() => handleSearchBar()}
+          onFocus={() => setOpenSearchBar(true)}
+          onBlur={() => setOpenSearchBar(false)}
         ></input>
         <SlashIcon />
       </div>

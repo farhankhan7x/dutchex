@@ -10,8 +10,8 @@ const DropdownMenu = () => {
   @apply font-bold text-base leading-[24px] ml-2 text-[#FFFFFF] border-[none]"
       >
         <option value="au">0x31...c0b8 &nbsp;</option>
-        <option value="ca">Canada &nbsp;</option>
-        <option value="usa">USA &nbsp;</option>
+        <option value="ca">0x4a1...a6v3 &nbsp;</option>
+        <option value="usa">0x5f3...cs6c &nbsp;</option>
       </select>
     </div>
   );
